@@ -1,0 +1,49 @@
+@font-face {
+    font-family: fontku;
+    src: url(m.ttf.ttf)
+}
+h1{
+    text-align: center;
+    font-family: fontku;
+    margin-top: 100px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 70px;
+    color: azure;
+
+}
+body{
+    background-color: black;
+}
+
+form .input {
+    padding: 20px 80px;
+}
+
+input {
+    background-color: maroon;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+}
+input:hover,.dropdown:hover .dropbtn{
+    background-color: red;
+    transition: all 0.5s ease;
+}
+table{
+    
+    font-family: monospace;
+    font-weight: 300;
+    color: white;
+    background-color: #dc143c;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    
+}
+p{
+    text-align: center;
+    font-size: 8px;
+    font-family: monospace;
+    color: azure;
+}
